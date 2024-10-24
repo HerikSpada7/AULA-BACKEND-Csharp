@@ -31,8 +31,8 @@ for (int i = 1; i <= 10; i++)
 
 
 // soma de todas as idades e dividir pelas pessoas no caso 10
-int mediaHomem = somaIdadeHomem / QtdHomem;
-int mediaMulher = somaIdadeMulher / QtdMulher;
+float mediaHomem = somaIdadeHomem / QtdHomem;
+float mediaMulher = somaIdadeMulher / QtdMulher;
 
 
 Console.WriteLine($"Quantidades total de homens: {QtdHomem}");
