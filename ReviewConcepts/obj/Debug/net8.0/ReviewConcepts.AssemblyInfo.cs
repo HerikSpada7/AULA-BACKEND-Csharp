@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ReviewConcepts")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+56d2cea86d685f3e2c7552f95eb235b1269fb2be")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2487e03aadadedff7fb5a5273f814a02e3b5a29e")]
 [assembly: System.Reflection.AssemblyProductAttribute("ReviewConcepts")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ReviewConcepts")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
