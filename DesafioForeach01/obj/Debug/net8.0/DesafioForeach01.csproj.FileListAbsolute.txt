@@ -1,0 +1,5 @@
+C:\Users\49984891860\Desktop\AULA-BACKEND\DesafioForeach01\obj\Debug\net8.0\DesafioForeach01.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\49984891860\Desktop\AULA-BACKEND\DesafioForeach01\obj\Debug\net8.0\DesafioForeach01.AssemblyInfoInputs.cache
+C:\Users\49984891860\Desktop\AULA-BACKEND\DesafioForeach01\obj\Debug\net8.0\DesafioForeach01.AssemblyInfo.cs
+C:\Users\49984891860\Desktop\AULA-BACKEND\DesafioForeach01\obj\Debug\net8.0\DesafioForeach01.csproj.CoreCompileInputs.cache
+C:\Users\49984891860\Desktop\AULA-BACKEND\DesafioForeach01\obj\Debug\net8.0\DesafioForeach01.sourcelink.json
