@@ -1,18 +1,16 @@
-﻿using System.Runtime.CompilerServices;
-using System.Runtime.Intrinsics.Arm;
-using Calculator.Classes;
+﻿using Calculator.Classes;
 
+Console.Clear();
 Console.Clear();
 
 Console.WriteLine($"Bem vindo a sua calculadora online!");
 Console.WriteLine();
 
 Console.WriteLine($"Digite o primeiro numero:");
-float n1 = float.Parse(Console.ReadLine());
+float n1 = float.Parse(Console.ReadLine()!);
 
 Console.WriteLine($"Digite o segundo numero:");
-float n2 = float.Parse(Console.ReadLine());
-
+float n2 = float.Parse(Console.ReadLine()!);
 
 
 Calculadora calc = new Calculadora();
@@ -35,3 +33,27 @@ Console.WriteLine(@$"
 
 Console.WriteLine($"Qual a sua opção?");
 int Escolha = int.Parse(Console.ReadLine()!);
+
+Console.WriteLine();
+
+if(Escolha == 1){
+    calc.Somar();
+}
+
+else if(Escolha == 2){
+    calc.Subtrair();
+}
+
+else if(Escolha == 3){
+    calc.Multiplicar();
+}
+
+else if(Escolha == 4){
+    calc.Dividir();
+}
+
+else{
+    Console.WriteLine($"=== Nenhuma das opções foi escolhida :( ===");
+    
+}
+

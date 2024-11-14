@@ -5,24 +5,29 @@ namespace Calculator.Classes
         public float numero1;
         public float numero2;
 
-    public void Somar(float resultadoMais)
+    public void Somar()
     {
-        resultadoMais = numero1 + numero2;
+        float resultadoMais = numero1 + numero2;
+        Console.WriteLine($"Resultado da soma é: {resultadoMais}");
+        
     }
 
-    public void Subtrair(float resultadoMenos)
+    public void Subtrair()
     {
-        resultadoMenos = numero1 - numero2;
+        float resultadoMenos = numero1 - numero2;
+        Console.WriteLine($"Resultado da subtração é: {resultadoMenos}");
     }
 
-    public void Multiplicar(float resultadoMultiplicado)
+    public void Multiplicar()
     {
-        resultadoMultiplicado = numero1 * numero2;
+        float resultadoMultiplicado = numero1 * numero2;
+        Console.WriteLine($"Resultado da sua multiplicação é: {resultadoMultiplicado}");
     }
 
-    public void Dividir(float resultadoDividido)
+    public void Dividir()
     {
-        resultadoDividido = numero1 / numero2;
+        float resultadoDividido = numero1 / numero2;
+        Console.WriteLine($"Resultado da sua divisão é: {resultadoDividido}");
     }
     }
 }
